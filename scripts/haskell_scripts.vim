@@ -9,7 +9,7 @@ function! HaskellModuleHeader(...)
     return  repeat('-', s:width) . "\n" 
     \       . "-- | \n" 
     \       . "-- Module      : " . name . "\n"
-    \       . "-- Author      :  Dilawar Singh, dilawars@iitb.ac.in" . "\n"
+    \       . "-- Author      :  Micky Droch, dilawars@iitb.ac.in" . "\n"
     \       . "-- Note        : " . note . "\n"
     \       . "-- \n"
     \       . "-- " . description . "\n"
